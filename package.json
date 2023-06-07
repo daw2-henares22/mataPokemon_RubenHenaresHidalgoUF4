@@ -1,0 +1,34 @@
+{
+  "name": "trabajos_alumnos",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "host": "vite -- --host 0.0.0.0",
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "gh-pages": "^5.0.0",
+    "mocha": "^10.2.0",
+    "sass": "^1.58.3",
+    "standard": "^17.0.0",
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@supabase/supabase-js": "^2.8.0",
+    "bootstrap": "^5.2.3",
+    "bootswatch": "^5.2.3",
+    "sweetalert2": "^11.7.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+
+
+
+@import "~bootswatch/dist/sandstone/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/sandstone/bootswatch";
+
+//$primary: '#ffc107';
+
+.estrellas{
+  display: inline-block;
+}
+.estrella{
+  display: inline-block;
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+}
+.activa{
+  background-image: url('assets/iconos/estrella-activa.svg');
+}
+.no-activa{
+  background-image: url('assets/iconos/estrella-no-activa.svg');
+}
